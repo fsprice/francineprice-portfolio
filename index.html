@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Francine Price</title>
+    <link rel="icon"  type="images/png" href="images/favicon-francineprice.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="navbar-logo"><img src="images/logo2.png" alt="Francine Price's personal logo FSP"></a>
+                <button class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="navbar-menu">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="https://docs.google.com/document/d/14JRKowbpNvXS5EjSYt1JArYQG4Zpb6Yg-_Gk61L9lr0/edit?usp=sharing" target="_blank">Resume</a></li>
+                    <li><a href="mailto:cine.price1997@gmail.com">Contact</a></li>
+                </ul>
+            </div>  
+        </nav>        
+    </header>
+    <main>
+      <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span  class="name">Francine Price!</span></h1>
+            <p>I'm a UX/UI Designer & Front-End Developer crafting human-centered, accessible digital experiences — blending code, creativity, and cultural insight to connect with diverse audiences.</p>
+            <div class="social-icons">
+                <div class="icon-button">
+                    <div class="icon"><a href="https://www.linkedin.com/in/francine-price-439734203/"><i class="fa-brands fa-square-linkedin"></i></a></div>
+                    <span>LinkedIn</span>
+                </div>
+                 <div class="icon-button">
+                    <div class="icon"><a href="https://github.com/fsprice"><i class="fa-brands fa-github"></i></a></div>
+                    <span>Github</span>
+                </div>
+                <div class="icon-button">
+                    <div class="icon"><a href="https://wcet.waketech.edu/fsprice/WEB250/wordpress/"><i class="fa-brands fa-wordpress-simple"></i></a></div>
+                    <span>Blog</span>
+                </div>
+                 <div class="icon-button">
+                    <div class="icon"><a href="mailto:cine.price1997@gmail.com"><i class="fa-regular fa-envelope"></i></a></div>
+                    <span>Email</span>
+                </div>                             
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="images/francineprice.jpg" alt="Francine Price photographed at a parking garage">
+        </div>
+      </section>
+    <section class="projects" id="projects"> 
+        <div class="project-title">
+            <h2>Projects</h2>
+        </div>       
+        <div class="projects-container">
+            <!-- Menu Links -->
+            <div class="items-links">
+                <span class="item-link menu-active" data-name="all">All</span>
+                <span class="item-link" data-name="webDev">Web Dev</span>
+                <span class="item-link" data-name="ux-ui">UX/UI</span>
+                <span class="item-link" data-name="branding">Branding</span>
+            </div>
+            <!-- Filter Image -->
+             <div class="gallery">
+                <div class="project-img" data-name="webDev">
+                    <img src="images/calculator-mockup.png" alt="">
+                    <div class="overlay">
+                        <h4>Calculator App</h4>
+                        <p>A responsive calulator that supports basic operations, percentages calculations, and includes Cancel Delete controls for error correction.</p>
+                        <p><b>Stack:</b> React.js · JavaScript · HTML · CSS</p>
+                        <div class="action-aria">
+                            <a href="https://fsprice.github.io/Calculator/" class="btn">View Website</a>
+                            <a href="https://github.com/fsprice/Calculator" class="btn btn-light">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="ux-ui">
+                    <img src="images/costalhaveninn-mockup.png" alt="">
+                    <div class="overlay">
+                        <h4>Coastal Haven Inn</h4>
+                        <p>An intuitive B&B prototype crafted to enhance bookings and highlight local experiences, blending usability with clear policy information for a welcoming user journey.</p>
+                        <p><b>Tools:</b> Figma · Adobe Illustrator</p>
+                        <div class="action-aria">
+                            <a href="https://drive.google.com/file/d/1koMeA97jRlSY7DaqBPiTmGGPCQRB3vpK/view" target="_blank" class="btn">Case Study</a>
+                            <a href="https://www.figma.com/proto/dgCJkt0TJUMPPKsMraQEkf/Price-Wireframes-GRD-240?node-id=2065-1126&p=f&t=0LnRbHUmcCSF4JSy-1&scaling=min-zoom&content-scaling=fixed&page-id=2065%3A1125" class="btn btn-light">Prototype</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="project-img" data-name="webDev">
+                    <img src="images/topsailisland-mockup.png" alt="">
+                    <div class="overlay">
+                        <h4>Topsail Island, NC</h4>
+                        <p>A modern redesign of the Topsail Island website, offering visitors an accessible and user-friendly way to explore the beach and plan their visit.</p>
+                        <p><b>Stack:</b> HTML · CSS · Bootstrap</p>
+                        <div class="action-aria">
+                            <a href="https://wcet.waketech.edu/fsprice/WEB125/BootStrap-Project/topsailBeach.html" class="btn">View Website</a>
+                            <a href="https://github.com/fsprice/Topsail-Beach" class="btn btn-light">GitHub</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="project-img" data-name="branding">
+                    <img src="images/12shells-mockup.png" alt="">
+                    <div class="overlay">
+                        <h4>12 Shells</h4>
+                        <p>Created a coastal-inspired logo and brand identity for 12 Shells, a craft beer company, emphasizing sustainability, quality, and community through clean design and natural colors.</p>
+                        <p><b>Tools:</b> Adobe Illustrator · Photoshop · Adobe Express ·  Canva </p>
+                        <div class="action-aria">
+                            <a href="https://www.canva.com/design/DAG0kqJXKDA/uDg-RDlN9gOrM79QHJu9Rg/edit?utm_content=DAG0kqJXKDA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn">View Presentation</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="project-img" data-name="ux-ui">
+                    <img src="images/danceexpressions-mockup.png" alt="">
+                    <div class="overlay">
+                        <h4>Dance Expressions Studio</h4>
+                        <p>This mobile app prototype is designed for a dance studio. It lets users select their preferred dance genre, book classes, and access general information about the studio and upcoming events.</p>
+                        <p><b>Tools:</b> Figma · Canva</p>
+                        <div class="action-aria">
+                            <a href="https://drive.google.com/file/d/1OulIT0KaJIwqp6qedLp1hRfRMulpIq_v/view?usp=sharing" target="_blank" class="btn">Case Study</a>
+                            <a href="https://www.figma.com/proto/gLDJr5RRaMaPz5v4np5qYI/Dance-Expressions---Mobile-App?type=design&node-id=37-3&t=Wbrp0PSY49PukkDe-1&scaling=scale-down&page-id=36%3A2&starting-point-node-id=37%3A3" class="btn btn-light">Prototype</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="project-img" data-name="webDev">
+                    <img src="images/gemsbyfran-mockup.png" alt="">
+                    <div class="overlay">
+                        <h4>Gems by Fran</h4>
+                        <p>A responsive WordPress e-commerce site built with Elementor and WooCommerce, featuring custom layouts, product tabs, and a testimonial carousel for an optimized user experience.</p>
+                        <p><b>Tools:</b> WordPress · WooCommerce · Elementor</p>
+                        <div class="action-aria">
+                            <a href="https://wcet.waketech.edu/fsprice/WEB260/wordpress/" class="btn">View Website</a>                
+                        </div>
+                    </div> 
+                </div>                           
+                                  
+             </div>
+        </div>
+     </section>
+    </main>   
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <div class="footer-text">
+            <div class="footer-title">
+                <h3>Let's Keep in Touch!</h3>
+            </div>
+            <ul class="footer-social-icons">
+                <li>
+                    <a href="https://www.linkedin.com/in/francine-price-439734203/"><i class="fa-brands fa-square-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/fsprice"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="mailto:cine.price1997@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                </li>
+            </ul>
+            <p>&copy; 2025 Francine Price</p>
+        </div>        
+        <div class="footer-arrow">
+            <a href="#" class="to-top"><i class="fas fa-chevron-up"></i></a>
+        </div>
+    </footer>    
+</body>
+<script src="script.js"></script>
+</html>
